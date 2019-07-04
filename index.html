@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="style.css"  media="screen,projection"/>
+    <script type="text/javascript" src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <nav class="grey darken-1 ">
+        <div class="nav-wrapper">
+            <a href="#" class="left brand-logo "> <i class="  material-icons">arrow_back</i>Decoder</a>
+        </div>
+    </nav>
+    <div class="main grey lighten-2 ">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 ">
+                    <div class="card-panel grey lighten-4 hoverable" id="topic">
+                        <div class="section">
+                            <h5>Need for Shift</h5>
+
+                        </div>
+                        <div class="divider"></div>
+                        <span class="grey-text text-darken-2">
+                            <p>Molly has a habit of shifting. She shifts letters of a string certain number of times.
+                                She takes any string and shifts back each letter of the string alphabetically. For
+                                example, if she shifts letters of string 'dcoder' 1 time, it becomes 'cbncdq',i.e, all
+                                letters of the string are shifted back by one. In case of presence of 'a', it is shifted
+                                back in a circular manner to 'z'. You will be given a string, print the changed string
+                                after Molly's shifting.</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="col s12 m6">
+                    <div class="card-panel grey lighten-4 hoverable" id="topic">
+                        <div class="section " id="input-title">
+                            <h5>Input</h5>
+
+                        </div>
+                        <div class="divider"></div>
+                        <span class="grey-text text-darken-2">
+                            <p>A single string and a single positive integer D in the next line. D denotes the number of
+                                times we have to shift back.</p>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="col s12 m6">
+                    <div class="card-panel grey lighten-4 hoverable" id="topic">
+                        <div class="section " id="input-title">
+                            <h5>Output</h5>
+
+                        </div>
+                        <div class="divider"></div>
+                        <span class="grey-text text-darken-2">
+                            <p> Print the converted string after Molly's Shifting.</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="col s12 ">
+                    <div class="card-panel grey lighten-4 hoverable" id="topic">
+                        <div class="section " id="input-title">
+                            <h5>Contraints</h5>
+
+                        </div>
+                        <div class="divider"></div>
+                        <span class="grey-text text-darken-2">
+                            <p> 1 ≤ string.length ≤ 50 <br>
+                                1 ≤ D ≤ 100<br>
+                                All characters of the string will be in lowercase.</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="col s12 m6">
+                    <div class="card-panel grey lighten-4 hoverable" id="topic">
+                        <div class="section " id="input-title">
+                            <h5>Sample Input</h5>
+
+                        </div>
+                        <div class="divider"></div>
+                        <span class="grey-text text-darken-2">
+                            <p>bcde</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="col s12 m6">
+                    <div class="card-panel grey lighten-4 hoverable" id="topic">
+                        <div class="section " id="input-title">
+                            <h5>Sample Output</h5>
+
+                        </div>
+                        <div class="divider"></div>
+                        <span class="grey-text text-darken-2">
+                            <p>abcd</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="col s12 ">
+                    <div class="card-panel grey lighten-4 hoverable" id="topic">
+                        <div class="section " id="input-title">
+                            <h5>Calculator</h5>
+
+                        </div>
+                        <div class="divider"></div>
+                        <span class="grey-text text-darken-2">
+                            <div class="row">
+                                <br>
+                                <div class="input-field col s6">
+                                    <input id="word" type="text" class="validate">
+                                    <label for="word">Word</label>
+                                </div>
+
+                                <div class="input-field col s6">
+                                    <input id="moves" type="number" class="validate">
+                                    <label for="moves">Moves</label>
+                                </div>
+
+                                <button class="btn waves-effect waves-light btn-small modal-trigger"
+                                    data-target="modal1" type="submit" name="action" id='btn'>Submit
+                                    <i class="material-icons right">send</i>
+                                </button>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+                <div id="modal1" class="modal teal lighten-4">
+                    <div class="modal-content">
+                        <center class="yettoknow">
+                            <img id="modalpic" class="  circle responsive-img"
+                                src="https://media.giphy.com/media/3orieUe6ejxSFxYCXe/giphy.gif" width=200px
+                                height=200px;>
+                        </center>
+                        <div id="progress" class="progress">
+                            <div class="indeterminate"></div>
+                        </div>
+                        <p id='reply'>Waiting for server to reply</p>
+                    </div><br>
+                    <div class="modal-footer">
+                        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Done</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

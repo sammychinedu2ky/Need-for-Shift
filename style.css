@@ -1,0 +1,19 @@
+#topic{
+    padding-top:0;
+}
+.section{
+    padding-top:8px;
+    padding-bottom:8px;
+}
+#red{
+    color:red !important;
+}
+#progress{
+   visibility:visible;
+    transition: visibility 0.7s;
+}
+#progress.fade{
+ visibility:hidden;
+ content:'this is my man';
+    
+}
