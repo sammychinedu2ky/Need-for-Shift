@@ -10,17 +10,17 @@ Suppose we have a word, "tech".
 If we are to encrypt it for 2 cycles, it would go this way
 
 #### First Cycle
-t -> s
-e -> d
-c -> b
-h -> g
+* t -> s
+* e -> d
+* c -> b
+* h -> g
 word is now sdbg
 
 #### Second Cycle
-s -> r
-d -> c
-b -> a
-g -> f
+* s -> r
+* d -> c
+* b -> a
+* g -> f
 word is now rcaf
 
 So, after two cycles, tech becomes rcaf
