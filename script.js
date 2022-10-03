@@ -49,7 +49,7 @@ window.onload=()=>{
                     
                 }
                 if(arr.indexOf(item)-revolution%26<0){
-                     out+=arr[26-(revolution%26-(arr.indexOf(item)))]
+                         out+=arr[26-(revolution%26-(arr.indexOf(item)))]
                 }
                 
             }
